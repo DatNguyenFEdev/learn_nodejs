@@ -2,9 +2,9 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon --inspect index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +18,12 @@
   },
   "homepage": "https://github.com/DatNguyenFEdev/learn_nodejs#readme",
   "dependencies": {
+    "body-parser": "^1.19.1",
+    "ejs": "^3.1.6",
     "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.7",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.15"
   }
 }
